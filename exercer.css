@@ -1,0 +1,30 @@
+
+.box{
+ width: 200px;
+ height: 200px;
+ background-color: blueviolet;
+ color: white;
+ font-size: 25px;
+ text-align: center;
+ line-height: 200px;
+ border: 2px solid black;
+ border-radius: 20px;
+
+}
+
+h1{
+    color: blue;
+}
+
+.conteneur{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.conteeur1{
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+}

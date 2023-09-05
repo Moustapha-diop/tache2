@@ -1,0 +1,149 @@
+body{
+    background-color: #1F2039;
+}
+h1{
+    font-family: Bricolage Grotesque;
+    text-shadow: 6px 6px 0px green;
+}
+
+.lien{
+    background-color: green;
+}
+
+a{
+color: white;
+}
+
+p li h2{
+    color: #F9F8FF;
+}
+
+.tca{
+    background: linear-gradient(#8E86B5,#ACAEED);
+    border-radius: 50px;
+}
+
+.robbie{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+}
+
+.lien :hover{
+    text-decoration: line-through;
+}
+
+.tca :hover{
+    background: linear-gradient(blue,green);
+}
+
+.imag :hover{
+opacity: 0,8;
+}
+
+ header, footer{
+ padding-top: 80px;
+ padding-bottom: 80px;
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+section{
+    padding: 80px;
+}
+
+.cont{
+    text-align: center;
+}
+
+.cont1{
+    padding-top: 80px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.depl{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+}
+
+.tca{
+    display:inline-block;
+    padding: 100px;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+img{
+    max-width: 300px;
+    height: auto;
+}
+
+.grid-paysage{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+}
+
+.grid-portrait{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 30px;
+}
+
+.foto{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+td, th, caption{
+    border: 2px solid black;
+    padding: 50px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+form{
+    max-width: 1000px;
+}
+
+@media screen and(max-width=1200px) {
+    
+    .grid-paysage{
+        grid-template-columns: 1fr;
+        gap: 15px;
+
+    }
+
+    .grid-portrait{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+
+    th, td, caption{
+        border: 1px solid black;
+    }
+
+}
+
